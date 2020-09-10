@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello Nathan!')
+  res.send('Hello Nathan! (v1.0)')
 })
 
 const niceThings = ['Wow!', 'Great work', 'You did it!', 'Pizza party?!', 'High Five', 'Gold star!', 'Way to be!!'];
